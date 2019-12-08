@@ -1,0 +1,233 @@
+{
+  "id": "4c066bb8-3fbf-4a72-acdd-d6f7f73c5483",
+  "version": "2.0",
+  "name": "av2_engenharia",
+  "url": "https://store.steampowered.com/",
+  "tests": [{
+    "id": "fc7945f9-031d-4e6e-bb24-6b7000ff4df0",
+    "name": "Untitled",
+    "commands": [{
+      "id": "24423340-db99-4e86-bf96-9add6c456d8b",
+      "comment": "",
+      "command": "open",
+      "target": "https://store.steampowered.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59382c51-1b8d-4423-8df2-4a2b06780083",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x726",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7645b8c-a7ba-46a1-8430-662bc517f3dc",
+      "comment": "",
+      "command": "click",
+      "target": "id=store_nav_search_term",
+      "targets": [
+        ["id=store_nav_search_term", "id"],
+        ["name=term", "name"],
+        ["css=#store_nav_search_term", "css:finder"],
+        ["xpath=//input[@id='store_nav_search_term']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82d79ada-7c86-4a11-b538-7210afcefb1e",
+      "comment": "",
+      "command": "type",
+      "target": "id=store_nav_search_term",
+      "targets": [
+        ["id=store_nav_search_term", "id"],
+        ["name=term", "name"],
+        ["css=#store_nav_search_term", "css:finder"],
+        ["xpath=//input[@id='store_nav_search_term']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "red dead redemption"
+    }, {
+      "id": "13d2da01-3706-4ff4-b8cb-ef88957e2472",
+      "comment": "",
+      "command": "click",
+      "target": "css=#store_search_link > img",
+      "targets": [
+        ["css=#store_search_link > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://steamstore-a.akamaihd.net/public/images/blank.gif')]", "xpath:img"],
+        ["xpath=//a[@id='store_search_link']/img", "xpath:idRelative"],
+        ["xpath=//form/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8480e1b-5f5d-47ad-b33d-d03439c90a2b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ds_flagged",
+      "targets": [
+        ["css=.ds_flagged", "css:finder"],
+        ["xpath=//div[@id='search_resultsRows']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/?snr=1_7_7_151_150_1')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a89ec11-7516-44c4-bcfb-03e75f600058",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ds_flagged",
+      "targets": [
+        ["css=.ds_flagged", "css:finder"],
+        ["xpath=//div[@id='search_resultsRows']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/?snr=1_7_7_151_150_1')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dedf81f4-c0b1-4482-b47f-aa990e70f679",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ds_flagged .title",
+      "targets": [
+        ["css=.ds_flagged .title", "css:finder"],
+        ["xpath=//div[@id='search_resultsRows']/a/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//a/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Red Dead Redemption 2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6737c7d-0b7e-479c-8d64-d9f72b5be0eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btn_add_to_cart_402134 > span",
+      "targets": [
+        ["css=#btn_add_to_cart_402134 > span", "css:finder"],
+        ["xpath=//a[@id='btn_add_to_cart_402134']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'+ Carrinho')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e660132-228e-4133-abb4-5fda06465b34",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btn_purchase_self > span",
+      "targets": [
+        ["css=#btn_purchase_self > span", "css:finder"],
+        ["xpath=//a[@id='btn_purchase_self']/span", "xpath:idRelative"],
+        ["xpath=//div[6]/a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Comprar para a minha conta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "189358a5-aeda-4ce3-bf1e-485cb4698dfc",
+      "comment": "",
+      "command": "click",
+      "target": "id=payment_method_trigger",
+      "targets": [
+        ["id=payment_method_trigger", "id"],
+        ["linkText=Mastercard nacional", "linkText"],
+        ["css=#payment_method_trigger", "css:finder"],
+        ["xpath=//a[contains(text(),'Mastercard nacional')]", "xpath:link"],
+        ["xpath=//a[@id='payment_method_trigger']", "xpath:attributes"],
+        ["xpath=//div[@id='payment_method_dselect_container']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:DSelectNoop();')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mastercard nacional')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6480583d-d5e0-4501-82e7-ff23dc1dd481",
+      "comment": "",
+      "command": "click",
+      "target": "id=boleto",
+      "targets": [
+        ["id=boleto", "id"],
+        ["linkText=Boleto bancário", "linkText"],
+        ["css=#boleto", "css:finder"],
+        ["xpath=//a[contains(text(),'Boleto bancário')]", "xpath:link"],
+        ["xpath=//a[@id='boleto']", "xpath:attributes"],
+        ["xpath=//ul[@id='payment_method_droplist']/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:DSelectNoop();')])[55]", "xpath:href"],
+        ["xpath=//body/div[2]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Boleto bancário')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "11c7233a-9fd1-4997-a831-0e52c4e39d7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_row:nth-child(21) > #submit_payment_info_btn > span",
+      "targets": [
+        ["css=.button_row:nth-child(21) > #submit_payment_info_btn > span", "css:finder"],
+        ["xpath=//a[@id='submit_payment_info_btn']/span", "xpath:idRelative"],
+        ["xpath=//div[15]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7eed744a-a25c-489a-ab1b-414e3748cbe6",
+      "comment": "",
+      "command": "click",
+      "target": "id=purchase_button_bottom_text",
+      "targets": [
+        ["id=purchase_button_bottom_text", "id"],
+        ["css=#purchase_button_bottom_text", "css:finder"],
+        ["xpath=//span[@id='purchase_button_bottom_text']", "xpath:attributes"],
+        ["xpath=//a[@id='purchase_button_bottom']/span", "xpath:idRelative"],
+        ["xpath=//div[11]/div[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continuar para o BoaCompra')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "716b6627-b481-4903-97a9-31bdb1302db6",
+      "comment": "",
+      "command": "click",
+      "target": "id=accept_ssa",
+      "targets": [
+        ["id=accept_ssa", "id"],
+        ["name=accept_ssa", "name"],
+        ["css=#accept_ssa", "css:finder"],
+        ["xpath=//input[@id='accept_ssa']", "xpath:attributes"],
+        ["xpath=//div[@id='purchase_confirm_ssa']/input", "xpath:idRelative"],
+        ["xpath=//div[11]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e062696-2e67-47cb-b6f9-2f415dbc0466",
+      "comment": "",
+      "command": "click",
+      "target": "id=purchase_button_bottom_text",
+      "targets": [
+        ["id=purchase_button_bottom_text", "id"],
+        ["css=#purchase_button_bottom_text", "css:finder"],
+        ["xpath=//span[@id='purchase_button_bottom_text']", "xpath:attributes"],
+        ["xpath=//a[@id='purchase_button_bottom']/span", "xpath:idRelative"],
+        ["xpath=//div[11]/div[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continuar para o BoaCompra')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win330",
+      "windowTimeout": 2000
+    }, {
+      "id": "5c127fa8-2531-4dad-92f9-648d693b43ce",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win330}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6c4c9b02-2c3b-43a7-bed8-a4e1772b2ae1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fc7945f9-031d-4e6e-bb24-6b7000ff4df0"]
+  }],
+  "urls": ["https://www.mercadolivre.com.br/", "https://store.steampowered.com/"],
+  "plugins": []
+}
